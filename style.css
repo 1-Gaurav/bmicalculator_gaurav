@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    background-color: #797978;
+    padding-left: 30px;
+    background-image: url('pic2.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Sets text color to white for everything inside the container */
+    font-family: Arial, sans-serif; /* Clean and readable font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow to text for better readability */
+}
+
+#height,
+#weight {
+    width: 200px; /* Increased width for input fields */
+    height: 40px; /* Increased height for input fields */
+    margin-top: 30px;
+    font-size: 18px; /* Increased font size */
+}
+
+#weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+    font-size: 22px; /* Bigger font for guidance text */
+}
+
+#results {
+    font-size: 45px; /* Increased font size */
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241); /* Light gray */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow for better visibility */
+}
+
+#button {
+    width: 180px; /* Increased button width */
+    height: 50px; /* Increased button height */
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121; /* Dark text color for button */
+    font-size: 25px; /* Font size remains larger for button */
+    font-weight: bold; /* Bold text to make it stand out */
+}
+
+h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    color: white; /* Heading text color set to white */
+    font-size: 50px; /* Larger font size for heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for heading text */
+}
